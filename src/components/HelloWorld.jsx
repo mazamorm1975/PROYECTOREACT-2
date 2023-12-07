@@ -1,11 +1,11 @@
-// eslint-disable-next-line react/prop-types
-export function HelloWorld({ user, id }) {
+/* eslint-disable react/prop-types */
+/* eslint-disable react/jsx-no-undef */
+
+export function HelloWorld(props) {
   return (
     <>
-      <div>
-        <h1>Que tal zamoreichon. </h1>
-        ¿Como estas hoy? {user} . tu employeeId es {id}
-      </div>
+      <h1>Hola Mundo</h1>
+      <div>Que tal !{props.user}</div>
     </>
   );
 }
