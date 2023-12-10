@@ -1,11 +1,11 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-no-undef */
 
-export function HelloWorld(props) {
-  return (
+// eslint-disable-next-line react/prop-types
+export function HolaMundo({user, id}){
+
+    return (
     <>
-      <h1>Hola Mundo</h1>
-      <div>Que tal !{props.user}</div>
+    <h1>Hola Que Tal a todos</h1>
+    <div>Como estas  {user} , tu ID en fedex hasta el 2016 era {id}</div>
     </>
   );
 }
