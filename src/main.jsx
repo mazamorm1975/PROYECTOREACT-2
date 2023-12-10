@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HelloWorld } from "./components/HelloWorld";
+import { HolaMundo } from "./components/HelloWorld";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <HelloWorld user={'Mario'}/>
+    <HolaMundo user={ 'Mario Zamora'} id={580062}/>
   </React.StrictMode>
 );
