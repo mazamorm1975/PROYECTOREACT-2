@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HolaMundo } from "./components/HelloWorld";
+import { HolaMundoApp } from "./HolaMundoApp";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <HolaMundo 
-      user={ {name: 'Paty', lastName:'Aburto'}} 
+    <HolaMundoApp
+      user={{ name: "Angelica", lastName: "Castro Martinez" }}
       id={580062}
-      title={'Hola Culoncita :)'}
-      />
+      title={"Hola Angie :)"}
+      book ={'Cien Años De Soledad'}
+    />
   </React.StrictMode>
 );
