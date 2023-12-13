@@ -20,5 +20,5 @@ Contador.prototype = {
 };
 
 Contador.defaultProps={
-  valor: 500
+  valor: 5000
 }
