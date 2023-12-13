@@ -10,9 +10,10 @@ import { Book } from "./components/Book";
 export const HolaMundoApp = ({ user, id, title, book }) => {
   return (
     <>
-      <Title title={title}/>
-      <UserDetails user={user} id={id}/>
-      <Book book={book}/>
+      <Title title={title} />
+      <UserDetails user={user} id={id} />
+      <Book book={book} />
+      
     </>
   );
 };
@@ -27,5 +28,5 @@ HolaMundoApp.propTypes = {
 HolaMundoApp.defaultProps = {
   title: "Saludos amigos en un defaultProps",
   book: "Padre pobre, Padre Rico Zamora",
-  id: 580065444
+  id: 580065444,
 };
