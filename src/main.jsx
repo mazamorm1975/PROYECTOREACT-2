@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { HolaMundoApp } from "./HolaMundoApp";
-import { Contador } from "./components/Contador";
+import { Contador } from "./Contador";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     />
     
     <Contador 
-    valor={1}
+    //valor={1}
      />
   </React.StrictMode>
 );
