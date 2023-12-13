@@ -25,7 +25,7 @@ HolaMundoApp.propTypes = {
 
 //Nota: los defaultProps SIEMPRE se evaluan antes del propTypes
 HolaMundoApp.defaultProps = {
-  title: "Saludos amigos en un defaultProps",
+  title: "Saludos amigos de san vicente Chicoloapan",
   book: "Padre pobre, Padre Rico Mario Zamora",
   id: 580065444,
 };
