@@ -13,7 +13,6 @@ export const HolaMundoApp = ({ user, id, title, book }) => {
       <Title title={title} />
       <UserDetails user={user} id={id} />
       <Book book={book} />
-      
     </>
   );
 };
@@ -27,6 +26,6 @@ HolaMundoApp.propTypes = {
 //Nota: los defaultProps SIEMPRE se evaluan antes del propTypes
 HolaMundoApp.defaultProps = {
   title: "Saludos amigos en un defaultProps",
-  book: "Padre pobre, Padre Rico Zamora",
+  book: "Padre pobre, Padre Rico Mario Zamora",
   id: 580065444,
 };

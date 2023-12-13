@@ -8,7 +8,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <HolaMundoApp
       user={{ name: "Angelica", lastName: "Castro Martinez" }}
       id={580062}
-      title={"Hola Angie :)"}
+      title={"Hola Paty Aburto :)"}
       book={"Cien Años De Soledad"}
     />
 
