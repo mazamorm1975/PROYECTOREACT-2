@@ -11,9 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       title={"Hola Angie :)"}
       book={"Cien Años De Soledad"}
     />
-    
-    <Contador 
-    //valor={1}
-     />
+
+    <Contador valor={1} />
   </React.StrictMode>
 );
